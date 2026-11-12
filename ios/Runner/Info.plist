@@ -1,0 +1,7 @@
+<!-- In ios/Runner/Info.plist inside <dict> -->
+<key>NSAppTransportSecurity</key>
+<dict>
+    <!-- Allows cleartext HTTP connection to laptop server at port 8080 over local Wi-Fi -->
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
